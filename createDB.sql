@@ -32,7 +32,7 @@ CREATE TABLE DEPARTMENT (
     Dept_Name VARCHAR(20) NOT NULL,
     Dept_Holding ENUM('F', 'S'),
     CONSTRAINT pk_department PRIMARY KEY (Dept_ID)
-);
+); 
 
 CREATE TABLE EQUIPMENT (
     Eq_ID VARCHAR(8) NOT NULL,
